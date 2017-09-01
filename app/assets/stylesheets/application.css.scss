@@ -15,7 +15,7 @@
  */
 
 $white_opaque: rgba(250, 250, 250, .3);
- $dark: #1F7972;
+$dark: #1F7972;
 
 * {
 	box-sizing: border-box;
@@ -26,11 +26,11 @@ html {
 
 body {
 	height: 100%;
-  background: -webkit-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:    -moz-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:     -ms-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:      -o-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:         linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  background: -webkit-linear-gradient(top, #ffb76b 0%,#ffa73d 50%,#ff7c00 55%,#ff7f04 100%);
+  background:    -moz-linear-gradient(top, #ffb76b 0%, #ffa73d 50%, #ff7c00 55%, #ff7f04 100%);
+  background:     -ms-linear-gradient(top, #ffb76b 0%,#ffa73d 50%,#ff7c00 55%,#ff7f04 100%);
+  background:      -o-linear-gradient(top, #ffb76b 0%,#ffa73d 50%,#ff7c00 55%,#ff7f04 100%);
+  background: 		  linear-gradient(to bottom, #ffb76b 0%,#ffa73d 50%,#ff7c00 55%,#ff7f04 100%); 
   font-family: 'Lato', sans-serif;
 }
 
